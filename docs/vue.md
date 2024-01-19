@@ -479,7 +479,7 @@ const count = ref(0)
 const isEvent = ref(false)
 
 function increment() {
-  state.count++
+  count.value++
 }
 
 watch(count, function() {
